@@ -1,7 +1,7 @@
-import React from 'react';
+import { ReactElement } from 'react';
 import TestComponent from './TestComponent';
 
-function App(): JSX.Element {
+function App(): ReactElement {
   return (
     <div className="App">
       <header className="App-header">
