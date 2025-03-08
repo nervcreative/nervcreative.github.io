@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { ReactElement, useState, useEffect } from 'react';
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInAnonymously, User } from 'firebase/auth';
 import { getDatabase, ref, push, onValue } from 'firebase/database';
@@ -18,7 +18,7 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getDatabase(app);
 
-export default function TestComponent(): JSX.Element {
+export default function TestComponent(): ReactElement {
     const [message, setMessage] = useState<string>('');
     const [messages, setMessages] = useState<Message[]>([]);
     const [user, setUser] = useState<User | null>(null);
