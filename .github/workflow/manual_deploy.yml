@@ -4,10 +4,6 @@ on:
   workflow_dispatch: # Trigger deployment manually
     branches:
       - live
-  push:
-    branches:
-      - live # Trigger deployment when changes are pushed to the 'live' branch
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
