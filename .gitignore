@@ -28,6 +28,3 @@ coverage/
 .vscode/
 *.swp
 *.swo
-
-# CI files
-.github/
