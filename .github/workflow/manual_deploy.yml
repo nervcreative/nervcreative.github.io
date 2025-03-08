@@ -4,6 +4,8 @@ on:
   workflow_dispatch: # Trigger deployment manually
     branches:
       - live
+      - gh-pages
+      - dev
 jobs:
   deploy:
     runs-on: ubuntu-latest
