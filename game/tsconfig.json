@@ -1,25 +1,32 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es5", // Or higher, depending on your browser support needs
     "lib": [
       "dom",
-      "dom.iterable",
       "esnext"
     ],
     "allowJs": true,
-    "skipLibCheck": true,
+    "skipLibCheck": true, //  Can help with some type definition issues
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
+    "strict": true, // Enable strict type checking
     "forceConsistentCasingInFileNames": true,
-    "module": "esnext",
+    "module": "esnext", // Or "commonjs" if you're not using ES modules
     "moduleResolution": "node",
-    "resolveJsonModule": true,
+    "resolveJsonModule": true, //  Useful for importing JSON files
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx", //  Crucial for React 17+
+    "types": [
+      "react",
+      "react-dom"
+    ]
   },
   "include": [
     "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*"
   ]
 }
