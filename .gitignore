@@ -1,0 +1,30 @@
+# React dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+/build/
+*.tsbuildinfo
+*.d.ts
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+coverage/
+*.log
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
