@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nervcreative/static/css/main.e6c13ad2.css",
+    "main.js": "/nervcreative/static/js/main.c7928317.js",
+    "static/js/453.a5a72b74.chunk.js": "/nervcreative/static/js/453.a5a72b74.chunk.js",
+    "index.html": "/nervcreative/index.html",
+    "main.e6c13ad2.css.map": "/nervcreative/static/css/main.e6c13ad2.css.map",
+    "main.c7928317.js.map": "/nervcreative/static/js/main.c7928317.js.map",
+    "453.a5a72b74.chunk.js.map": "/nervcreative/static/js/453.a5a72b74.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.c7928317.js"
+  ]
+}
